@@ -26,7 +26,7 @@ During our data exploration, we identified the following key insights:
 2.  **Recognizing patterns in the data:** Plotting the heatmap of the interactions revealed that the interactions are not random. There seems to be a line of interactions that increases with the user ID (u) and the book ID (i).
 <br/>
 <img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/dce72922-a4ad-47b2-9bd5-8f8b9202fe44" />
- <br/>
+<br/>
 3.  **[Insight 1**, WITH PLOT 
 
 
