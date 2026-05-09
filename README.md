@@ -19,7 +19,9 @@
 
 ## 📊 Exploratory Data Analysis (EDA)
 During our data exploration, we identified the following key insights:
-1.  **[Insight 1**, WITH PLOT 
+1.  **Many users interact several times with the same book:** 23'044 out of 87'047 interactions are rereads. This means that 26.47% of the interactions are users interacting with a book that they already interacted with before.
+    <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/d55c6557-ffba-48c7-92e2-4fe5db7a3cba" />
+
 2.  **[Insight 1**, WITH PLOT 
 3.  **[Insight 1**, WITH PLOT 
 
