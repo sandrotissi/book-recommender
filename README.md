@@ -12,7 +12,7 @@
 
 ## 🏆 Kaggle Competition Results
 * **Final MAP@10 / Precision@10 Score:** **0.1984**
-* **Final Rank:** [e.g., 1st]
+* **Final Rank:** **1st**
 * **Screenshot:** 
 
 
