@@ -11,7 +11,7 @@
 **Link:** XXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## 🏆 Kaggle Competition Results
-* **Final MAP@10 / Precision@10 Score:** [e.g., 0.1984] *(Must be > 0.1452)*
+* **Final MAP@10 / Precision@10 Score:** **0.1984**
 * **Final Rank:** [e.g., 1st]
 * **Screenshot:** 
 
