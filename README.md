@@ -11,8 +11,8 @@
 **Link:** XXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## 🏆 Kaggle Competition Results
-* **Final MAP@10 / Precision@10 Score:** [e.g., 0.1523] *(Must be > 0.1452)*
-* **Final Rank:** [e.g., 12th]
+* **Final MAP@10 / Precision@10 Score:** [e.g., 0.1984] *(Must be > 0.1452)*
+* **Final Rank:** [e.g., 1st]
 * **Screenshot:** 
 
 
@@ -23,18 +23,25 @@ During our data exploration, we identified the following key insights:
 <br/>
 <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/d55c6557-ffba-48c7-92e2-4fe5db7a3cba" />
 <br/>
-2.  **Recognizing patterns in the data:** Plotting the heatmap of the interactions revealed that the interactions are not random. There seems to be a line of interactions that increases with the user ID (u) and the book ID (i).
+<br/>
+
+2.  **Not all books are reread:** The percentage of rereads is high but the probability varies between books.
+
+<br/>
+<br/>
+
+3.  **Recognizing patterns in the data:** Plotting the heatmap of the interactions revealed that the interactions are not random. There seems to be a line of interactions that increases with the user ID (u) and the book ID (i). In the interaction data, there are no observations on the right side of this line. The higher the user ID (u), the more interactions users have on the left side of the line.
 <br/>
 <img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/dce72922-a4ad-47b2-9bd5-8f8b9202fe44" />
 <br/>
-3.  **[Insight 1**, WITH PLOT 
 
 
 
 
 
 ## Data Augmentation & Embeddings ?? DID WE DO SOMETHING ? 
-To improve our model's performance and provide rich metadata for the UI, we augmented the dataset:
+We didn't use any additional metadata to improve our model.
+To provide rich metadata for the UI, we augmented the dataset:
 * **External API Used:** [e.g., Google Books API / ISBNDB]
 * **Data Retrieved:** [e.g., High-resolution book covers, summaries, and updated genres using ISBNs.]
 * **Embeddings:** [Explain if/how you used text embeddings. e.g., "We used BERT/OpenAI embeddings to represent book titles and subjects, computing cosine similarity to tackle the cold-start problem for items with few interactions."]
@@ -46,12 +53,12 @@ We evaluated our models using a local Train/Test/Cross-Validation split to calcu
 
 | Technique | Precision@10 | Recall@10 |
 | :--- | :---: | :---: |
-| User-User CF | [0.XXXX] | [0.XXXX] |
+| User-User CF | [0.0476] | [0.2213] |
 | Item-Item CF | [0.XXXX] | [0.XXXX] |
-| **[Your Custom/Best Model Name]** | **[0.XXXX]** | **[0.XXXX]** |
+| **[Weighted Approach with Rereading Recommendations]** | **[0.XXXX]** | **[0.XXXX]** |
 
 ### Which is the best model?
-**[Name of Best Model]** performed the best. [Provide a 2-3 sentence justification explaining *why* it outperformed the baselines. e.g., Mention how hyper-parameter optimization or embeddings helped capture user intent better than standard CF.]
+**[Weighted Approach with Rereading Recommendations]** performed the best. Some books have a relatively high probability to be reread. Combining the User-User CF, Item-Item CF with recommendations based on books that are oftenly reread lead to a higher precision. [Provide a 2-3 sentence justification explaining *why* it outperformed the baselines. e.g., Mention how hyper-parameter optimization or embeddings helped capture user intent better than standard CF.]
 
 
 
