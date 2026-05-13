@@ -32,7 +32,8 @@ During our data exploration, we identified the following key insights:
 
 3.  **Recognizing patterns in the data:** Plotting the heatmap of the interactions revealed that the interactions are not random. There seems to be a line of interactions that increases with the user ID (u) and the book ID (i). In the interaction data, there are no observations on the right side of this line. The higher the user ID (u), the more interactions users have on the left side of the line.
 <br/>
-<img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/dce72922-a4ad-47b2-9bd5-8f8b9202fe44" />
+<img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/7f18a57c-2922-47e2-8ffc-27e03197a4df" />
+
 <br/>
 
 
