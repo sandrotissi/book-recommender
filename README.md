@@ -54,7 +54,7 @@ We evaluated our models using a local Train/Test/Cross-Validation split to calcu
 | Technique | Precision@10 | Recall@10 |
 | :--- | :---: | :---: |
 | User-User CF | [0.0476] | [0.2213] |
-| Item-Item CF | [0.XXXX] | [0.XXXX] |
+| Item-Item CF | [0.0464] | [0.2002] |
 | **[Weighted Approach with Rereading Recommendations]** | **[0.XXXX]** | **[0.XXXX]** |
 
 ### Which is the best model?
