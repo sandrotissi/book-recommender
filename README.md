@@ -58,7 +58,7 @@ We evaluated our models using a local Train/Test/Cross-Validation split to calcu
 | **[Weighted Approach with Rereading Recommendations]** | **[0.XXXX]** | **[0.XXXX]** |
 
 ### Which is the best model?
-**[Weighted Approach with Rereading Recommendations]** performed the best. Some books have a relatively high probability to be reread. Combining the User-User CF, Item-Item CF with recommendations based on books that are oftenly reread lead to a higher precision. [Provide a 2-3 sentence justification explaining *why* it outperformed the baselines. e.g., Mention how hyper-parameter optimization or embeddings helped capture user intent better than standard CF.]
+The **Weighted Approach with Rereading Recommendations** performed the best. Some books have a relatively high probability to be reread. Combining the User-User CF, Item-Item CF with recommendations based on books that are oftenly reread lead to a higher precision. [Provide a 2-3 sentence justification explaining *why* it outperformed the baselines. e.g., Mention how hyper-parameter optimization or embeddings helped capture user intent better than standard CF.]
 
 
 
