@@ -26,8 +26,8 @@ During our data exploration, we identified the following key insights:
 <br/>
 <br/>
 
-2.  **Not all books are reread:** The percentage of rereads is high but the probability varies between books. For the recommendations, we only looked at books that have high rereading probabilities. 
-
+2.  **Not all books are reread:** The percentage of rereads is high but the probability varies between books. For the recommendations, we took this into account by giving books with higher rereading probabilities a higher weight. 
+<br/>
 <img width="243" height="295" alt="image" src="https://github.com/user-attachments/assets/c54cff67-8e0e-4414-b256-762d226aefc3" />
 
 
