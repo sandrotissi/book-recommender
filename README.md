@@ -21,7 +21,8 @@
 During our data exploration, we identified the following key insights:
 1.  **Many users interact several times with the same book:** 23'044 out of 87'047 interactions are rereads. This means that 26.47% of the interactions are users interacting with a book that they already interacted with before.
 <br/>
-<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/d55c6557-ffba-48c7-92e2-4fe5db7a3cba" />
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/c69b6e49-bd3e-4cf8-83e5-cecd257a3e8c" />
+
 <br/>
 <br/>
 
@@ -35,7 +36,8 @@ During our data exploration, we identified the following key insights:
 
 3.  **Recognizing patterns in the data:** Plotting the heatmap of the interactions revealed that the interactions are not random. There seems to be a line of interactions that increases with the user ID (u) and the book ID (i). In the interaction data, there are no observations on the right side of this line. The higher the user ID (u), the more interactions users have on the left side of the line.
 <br/>
-<img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/7f18a57c-2922-47e2-8ffc-27e03197a4df" />
+<img width="827" height="689" alt="image" src="https://github.com/user-attachments/assets/373f9851-522a-462e-817b-7468a2a4ce34" />
+
 
 <br/>
 
