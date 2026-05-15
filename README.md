@@ -61,7 +61,7 @@ We evaluated our models using a local Train/Test/Cross-Validation split to calcu
 | :--- | :---: | :---: |
 | User-User CF | [0.0476] | [0.2213] |
 | Item-Item CF | [0.0464] | [0.2002] |
-| **[Weighted Approach with Rereading Recommendations]** | **[0.XXXX]** | **[0.XXXX]** |
+| **[Weighted Approach with Rereading Recommendations]** | **[0.0574]** | **[0.2419]** |
 
 ### Which is the best model?
 The **Weighted Approach with Rereading Recommendations** performed the best. Some books have a relatively high probability to be reread. Combining the User-User CF, Item-Item CF with recommendations based on books that are oftenly reread lead to a higher precision. When user data is sparse, user-user similarity often fails because there are too few overlapping data points to find meaningful "neighbors," leaving recommendations inaccurate or impossible for new users. By combining it with item-item similarity, the system can bypass the need for shared user history by recommending items similar to the few a user has interacted with, effectively filling the gaps in the sparse interaction matrix. <br/>
