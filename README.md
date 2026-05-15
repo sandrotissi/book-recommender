@@ -8,7 +8,7 @@
   Both team member were actually involved in each steps and contributed to new ideas and debugging. 
 
 ## Video 
-**Link:** XXXXXXXXXXXXXXXXXXXXXXXXX
+**Link:** [YouTube Video](https://youtu.be/m8BrKFdmduc)
 
 ## 🏆 Kaggle Competition Results
 * **Final MAP@10 / Precision@10 Score:** **0.1984**
