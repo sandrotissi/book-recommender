@@ -45,7 +45,7 @@ During our data exploration, we identified the following key insights:
 
 
 
-## Data Augmentation & Embeddings ?? DID WE DO SOMETHING ? 
+## Data Augmentation & Embeddings ? What did you exactly use for the UI?
 We didn't use any additional metadata to improve our model.
 To provide rich metadata for the UI, we augmented the dataset:
 * **External API Used:** [e.g., Google Books API / ISBNDB]
