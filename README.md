@@ -92,3 +92,5 @@ You can access the app by clicking on this link: [**https://bcul-book-recommende
 If the link is expired, no worries. 
 Go to the the green code button on the top right, and select the legendary acorn codespace. Than go on the recommender_app folder and select streamlit_app.py. Than paste this code into the terminal to access the app: pip install streamlit pandas requests && streamlit run recommender_app/streamlit_app.py
 
+[link](https://github.com/ad-phil/Book-recommender)
+
