@@ -89,3 +89,4 @@ We built an interactive UI using Streamlit that allows users to input a User ID 
 Once users are identified, they see visually appealing book recommendations complete with cover images fetched via the google book api (downloaded csv with links) and completed with openlibrary, they also directly get informations on on the author and the synopsis of the book. This approach helped us to collect a lot of book covers, for example user 567 is missing only one cover! They can also see their history of rented books, with the precise date.
 
 You can access the app by clicking on this link: [**BCULausanne**](https://bcul-book-recommender.streamlit.app)
+If the link is expired, no worries. Go to the 
