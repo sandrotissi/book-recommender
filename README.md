@@ -90,5 +90,5 @@ Once users are identified, they see visually appealing book recommendations comp
 
 You can access the app by clicking on this link: [**https://bcul-book-recommender.streamlit.app**](https://bcul-book-recommender.streamlit.app)
 If the link is expired, no worries. 
-Go to the the green code button on the top right, and select the legendary acorn codespace. Than go on the recommender_app folder and select streamlit_app.py. Than paste this code into the terminal to access the app: pip install streamlit pandas requests && streamlit run streamlit_app.py
+Go to the the green code button on the top right, and select the legendary acorn codespace. Than go on the recommender_app folder and select streamlit_app.py. Than paste this code into the terminal to access the app: pip install streamlit pandas requests && streamlit run recommender_app/streamlit_app.py
 
