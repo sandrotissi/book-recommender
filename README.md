@@ -47,10 +47,7 @@ During our data exploration, we identified the following key insights:
 
 ## Data Augmentation & Embeddings ? What did you exactly use for the UI?
 We didn't use any additional metadata to improve our model.
-To provide rich metadata for the UI, we augmented the dataset:
-* **External API Used:** [e.g., Google Books API / ISBNDB]
-* **Data Retrieved:** [e.g., High-resolution book covers, summaries, and updated genres using ISBNs.]
-* **Embeddings:** [Explain if/how you used text embeddings. e.g., "We used BERT/OpenAI embeddings to represent book titles and subjects, computing cosine similarity to tackle the cold-start problem for items with few interactions."]
+To provide rich metadata for the UI, we augmented the dataset with covers, authors (where it was missing), and book summaries from external APIs (Google Books and OpenLibrary).
 
 
 
